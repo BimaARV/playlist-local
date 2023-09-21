@@ -1,0 +1,83 @@
+/* Gaya dasar */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+ul.playlist {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul.playlist li {
+  cursor: pointer;
+  margin: 10px 0;
+}
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Gaya tombol putar dan jeda */
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin: 0 10px;
+}
+/* Gaya untuk tampilan smartphone */
+@media (max-width: 768px) {
+  header {
+    padding: 10px;
+    font-size: 20px;
+  }
+
+  main {
+    max-width: 100%;
+    margin: 10px;
+    padding: 10px;
+  }
+
+  ul.playlist li {
+    margin: 5px 0;
+    font-size: 16px;
+  }
+
+  footer {
+    text-align: center;
+    margin-top: 10px;
+  }
+}
+.developer-info {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.developer-info a {
+  text-decoration: none;
+  color: #333;
+  font-size: 18px;
+}
+
+.developer-info a i {
+  font-size: 24px;
+  margin-right: 5px;
+}
